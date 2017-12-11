@@ -5,7 +5,7 @@ import tags from './tags';
 export default ({ config, db }) => {
 	let api = Router();
 
-	api.use('/tags', tags({ config, db }));
+	api.use('/tags', tags());
 
 	// perhaps expose some API metadata at the root
 	api.get('/', (req, res) => {
