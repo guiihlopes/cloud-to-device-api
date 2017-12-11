@@ -12,5 +12,5 @@ yarn install
 PORT=8090 yarn run dev
 
 # Start production server:
-PORT=8080 yarn start
+PORT=8090 yarn start
 ```
